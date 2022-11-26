@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.questapp.business.abstracts.UserService;
-import com.example.questapp.business.requests.UserRequest;
-import com.example.questapp.business.responses.UserResponse;
+import com.example.questapp.business.requests.users.UserRequest;
+import com.example.questapp.business.responses.users.UserResponse;
 
 @RestController
 @RequestMapping("api/users")
@@ -26,7 +26,7 @@ public class UserController {
 		this._userService = _userService;
 	}
 
-	@GetMapping("/getAll")
+	@GetMapping()
 	public List<UserResponse> getAll() {
 
 		return _userService.getAll();

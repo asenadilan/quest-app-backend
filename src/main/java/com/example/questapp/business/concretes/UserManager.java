@@ -7,8 +7,8 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 import com.example.questapp.business.abstracts.UserService;
-import com.example.questapp.business.requests.UserRequest;
-import com.example.questapp.business.responses.UserResponse;
+import com.example.questapp.business.requests.users.UserRequest;
+import com.example.questapp.business.responses.users.UserResponse;
 import com.example.questapp.dataAccess.abstracts.UserRepository;
 import com.example.questapp.entities.concretes.User;
 

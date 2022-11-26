@@ -1,4 +1,4 @@
-package com.example.questapp.business.requests;
+package com.example.questapp.business.requests.users;
 
 import lombok.Data;
 

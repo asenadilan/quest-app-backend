@@ -2,8 +2,8 @@ package com.example.questapp.business.abstracts;
 
 import java.util.List;
 
-import com.example.questapp.business.requests.UserRequest;
-import com.example.questapp.business.responses.UserResponse;
+import com.example.questapp.business.requests.users.UserRequest;
+import com.example.questapp.business.responses.users.UserResponse;
 
 public interface UserService {
 
